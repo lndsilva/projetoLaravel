@@ -71,4 +71,10 @@ https://getcomposer.org/download/
 
 composer install
 
+## Criar vendor
+
+copy .env .example .env
+
+php artisan key:generate
+
 
